@@ -1,7 +1,10 @@
 """ scenic score
     Sum all the ways from the current number to the closest higher
     in  the direction to the left, right, up and down.
-    Just a for loop, brute force. """
+    Just a for loop, brute force. 
+    
+    https://adventofcode.com/2022/day/8
+    """
 
 import os
 import time
