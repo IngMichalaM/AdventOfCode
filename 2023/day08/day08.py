@@ -3,7 +3,7 @@ from itertools import cycle
 
 map_guide = 'LR'
 
-with open("input_input.txt") as f:
+with open("input_test.txt") as f:
     input = [line.strip('\n') for line in f.readlines()]
 
 my_map = dict()
