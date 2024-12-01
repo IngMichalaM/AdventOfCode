@@ -6,8 +6,8 @@ https://adventofcode.com/
 About my Python level - haven't use python in two years (switched to Postman and JS instead), so this is again a great, but painful, experience :-).
 
 # Cheatsheet
-As every year, there are some small code snipets and python features that make the work easier. One of them is the script to prepare the file structure for the whole month :-)
-Among others are (so that I don't forget to use these in the following challengind December days):
+As every year, there are some small code snippets and python features that make the work easier. One of them is the script to prepare the file structure for the whole month :-)
+Among others are (so that I don't forget to use these in the following challenging December days):
 * reading the file: `input = [line.strip('\n') for line in f.readlines()]`, `input_num = [list(map(int, line.split())) for line in input]`
 * use of list comprehension: `found_one = [m.start() for m in re.finditer(key, line)]`
 * regex in string lines: `re.findall(r'\d+', line)`
