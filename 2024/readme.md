@@ -16,9 +16,8 @@ Among others are (so that I don't forget to use these in the following challengi
 * strip
 * while, for-else, if-elif-else, match-case 
 * print: `print('-'*20)`
-* generators: cycle, next
+* generators: cycle, next, zip
 * data: list, tuple (namedtuple), set  dict (collections module - OrderedDict, defaultdict, Counter), string, int, deque
-* zip
 * range
 * try-except-else-finally
 * time: `import time`, `time.perf_counter()`
