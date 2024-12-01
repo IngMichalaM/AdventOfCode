@@ -3,7 +3,7 @@
 Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels. 
 https://adventofcode.com/
 
-About my Python level - haven't use python in two years (switched to Postman and JS instead), so this is again a great, but painful experience :-).
+About my Python level - haven't use python in two years (switched to Postman and JS instead), so this is again a great, but painful, experience :-).
 
 # Cheatsheet
 As every year, there are some small code snipets and python features that make the work easier. One of them is the script to prepare the file structure for the whole month :-)
