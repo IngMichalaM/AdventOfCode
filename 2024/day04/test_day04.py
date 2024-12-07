@@ -36,12 +36,12 @@ class TestMSAroundA(unittest.TestCase):
     def test_find_mas_1(self):
 
         a = [['M','c','s'],['X','A','g'],['X','X','S']]
-        self.assertEqual(num_A_around_here(a, 1, 1), 1)
+        self.assertEqual(num_A_around_here(a, 1, 1), 0)
 
     def test_find_mas_2(self):
 
         a = [['M','c','S'],['X','A','g'],['M','X','S']]
-        self.assertEqual(num_A_around_here(a, 1, 1), 2)
+        self.assertEqual(num_A_around_here(a, 1, 1), 1)
 
 if __name__ == '__main__':
     unittest.main()
