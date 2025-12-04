@@ -1,3 +1,5 @@
+# https://adventofcode.com/2025/day/2
+
 # with open("input_example.txt") as f:
 with open("real_input.txt") as f:
     my_input = f.readline().strip().split(',')

@@ -1,3 +1,5 @@
+# https://adventofcode.com/2025/day/4
+
 # with open("input_example.txt") as f:
 with open("input.txt") as f:
     my_input = [line.strip('\n') for line in f.readlines()]
@@ -7,7 +9,6 @@ NEIGHBORS_8 = [
     (0, -1), (0, 1),
     (1, -1), (1, 0), (1, 1)
 ]
-
 
 def check_surroundings(row: int, column: int, rolls_grid, num_rows, num_cols):
     """ If there are < 4 adjacent paper rolls, this roll is reachable - True """

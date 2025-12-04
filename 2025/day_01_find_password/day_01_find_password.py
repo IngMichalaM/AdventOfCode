@@ -1,3 +1,5 @@
+# https://adventofcode.com/2025/day/1
+
 with open("input_example.txt") as f:
 # with open("real_input.txt") as f:
     my_input = [line.strip('\n') for line in f.readlines()]
